@@ -1,0 +1,108 @@
+#######################################
+# Syntax Coloring Map For RTT-CMSIS-OS
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+osKernelInitialize			KEYWORD2
+osKernelGetInfo				KEYWORD2
+osKernelGetState			KEYWORD2
+osKernelStart				KEYWORD2
+osKernelLock				KEYWORD2
+osKernelUnlock				KEYWORD2
+osKernelRestoreLock			KEYWORD2
+osKernelSuspend				KEYWORD2
+osKernelResume				KEYWORD2
+osKernelGetTickCount		KEYWORD2
+osKernelGetTickFreq			KEYWORD2
+osKernelGetSysTimerCount	KEYWORD2
+osKernelGetSysTimerFreq		KEYWORD2
+
+osThreadNew					KEYWORD2
+osThreadGetName				KEYWORD2
+osThreadGetId				KEYWORD2
+osThreadGetState			KEYWORD2
+osThreadGetStackSize		KEYWORD2
+osThreadGetStackSpace		KEYWORD2
+osThreadSetPriority			KEYWORD2
+osThreadGetPriority			KEYWORD2
+osThreadYield				KEYWORD2
+osThreadSuspend				KEYWORD2
+osThreadResume				KEYWORD2
+osThreadDetach				KEYWORD2
+osThreadJoin				KEYWORD2
+osThreadExit				KEYWORD2
+osThreadTerminate			KEYWORD2
+osThreadGetCount			KEYWORD2
+osThreadEnumerate			KEYWORD2
+
+osThreadFlagsSet			KEYWORD2
+osThreadFlagsClear			KEYWORD2
+osThreadFlagsGet			KEYWORD2
+osThreadFlagsWait			KEYWORD2
+
+osDelay						KEYWORD2
+osDelayUntil				KEYWORD2
+
+osTimerNew					KEYWORD2
+osTimerGetName				KEYWORD2
+osTimerStart				KEYWORD2
+osTimerStop	KEYWORD2
+osTimerIsRunning			KEYWORD2
+osTimerDelete				KEYWORD2
+
+osEventFlagsNew				KEYWORD2
+osEventFlagsGetName			KEYWORD2
+osEventFlagsSet				KEYWORD2
+osEventFlagsClear			KEYWORD2
+osEventFlagsGet				KEYWORD2
+osEventFlagsWait			KEYWORD2
+osEventFlagsDelete			KEYWORD2
+
+osMutexNew					KEYWORD2
+osMutexGetName				KEYWORD2
+osMutexAcquire				KEYWORD2
+osMutexRelease				KEYWORD2
+osMutexGetOwner				KEYWORD2
+osMutexDelete				KEYWORD2
+
+osSemaphoreNew				KEYWORD2
+osSemaphoreGetName			KEYWORD2
+osSemaphoreAcquire			KEYWORD2
+osSemaphoreRelease			KEYWORD2
+osSemaphoreGetCount			KEYWORD2
+osSemaphoreDelete			KEYWORD2
+
+osMemoryPoolNew				KEYWORD2
+osMemoryPoolGetName			KEYWORD2
+osMemoryPoolAlloc			KEYWORD2
+osMemoryPoolFree			KEYWORD2
+osMemoryPoolGetCapacity		KEYWORD2
+osMemoryPoolGetBlockSize	KEYWORD2
+osMemoryPoolGetCount		KEYWORD2
+osMemoryPoolGetSpace		KEYWORD2
+osMemoryPoolDelete			KEYWORD2
+
+osMessageQueueNew			KEYWORD2
+osMessageQueueGetName		KEYWORD2
+osMessageQueuePut			KEYWORD2
+osMessageQueueGet			KEYWORD2
+osMessageQueueGetCapacity	KEYWORD2
+osMessageQueueGetMsgSize	KEYWORD2
+osMessageQueueGetCount		KEYWORD2
+osMessageQueueGetSpace		KEYWORD2
+osMessageQueueReset			KEYWORD2
+osMessageQueueDelete		KEYWORD2
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+#######################################
+# Constants (LITERAL1)
+#######################################
